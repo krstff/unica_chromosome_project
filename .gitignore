@@ -1,0 +1,20 @@
+# Data & models (large files)
+data/raw/
+data/train/labels/*.txt
+data/val/labels/*.txt
+data/test/labels/*.txt
+runs/
+
+!./runs/detect/predict/
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/

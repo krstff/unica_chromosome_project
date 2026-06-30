@@ -1,0 +1,8 @@
+# YOLOv8 dataset config - chromosome detection (24 classes)
+path: /home/krstff/unica_project/data
+train: train/images
+val: val/images
+test: test/images
+
+nc: 24
+names: ['A1', 'A2', 'A3', 'B4', 'B5', 'C10', 'C11', 'C12', 'C6', 'C7', 'C8', 'C9', 'D13', 'D14', 'D15', 'E16', 'E17', 'E18', 'F19', 'F20', 'G21', 'G22', 'X', 'Y']

@@ -35,4 +35,4 @@ Train a YOLOv8n-seg model to segment chromosomes from microscopy images.
 ## Requirements
 
 - Kaggle account + API credentials (`kaggle.json` or env vars)
-- GPU recommended (A100 in original; batch=8 works on most GPUs)
+- GPU recommended (batch=8 works on most GPUs)
